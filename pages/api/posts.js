@@ -1,8 +1,13 @@
 //pages/api/posts.js
 import mongoose from 'mongoose';
 
-// MongoDB connection URI
-const MONGODB_URI = 'mongodb://localhost:27017/postapp';
+// MongoDB connection URI from environment variable
+const MONGODB_URI = process.env.MONGODB_URI;
+
+if (!MONGODB_URI) {
+    throw new Error("Missing MONGODB_URI in .env.local");
+}
+
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
