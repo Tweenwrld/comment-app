@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# comment-app
+=======
+>>>>>>> 836c7f0 (Resolved merge conflicts)
 # Next.js MERN Project
 
 ## Overview
@@ -55,3 +61,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License.
+<<<<<<< HEAD
+=======
+>>>>>>> ffc6468 (initial commit.)
+>>>>>>> 836c7f0 (Resolved merge conflicts)
